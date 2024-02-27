@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h1 class="text-5xl text-center mt-14">Functional <span class="text-red-700">Baap er Bank</span></h1>
+    </header>
+    <main>
+        <!-- balance and transaction -->
+        <section class="mt-14 ">
+            <div class="grid grid-cols-3 gap-6 w-9/12 mx-auto text-white">
+                <div class="bg-orange-700 p-8">
+                <h4 class="text-4xl">Deposit</h4>
+                <h2 class="text-4xl m-2 font-medium">$<span id="deposit-total">00</span></h2>
+            </div>
+                <div class="bg-amber-700 p-8">
+                <h4 class="text-4xl">WIthdraw</h4>
+                <h2 class="text-4xl m-2 font-medium">$<span id="withdraw-total">00</span></h2>
+            </div>
+                <div class="bg-yellow-600 p-8">
+                <h4 class="text-4xl">Balance</h4>
+                <h2 class="text-4xl m-2 font-medium">$<span id="balance-total">1240</span></h2>
+            </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
